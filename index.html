@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaheer Abbas - Electrician & Plumbing Services</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- ===== LANGUAGE SWITCHER ===== -->
+    <div class="language-switcher">
+        <button class="lang-btn active" onclick="switchLanguage('en')">🇬🇧 English</button>
+        <button class="lang-btn" onclick="switchLanguage('ar')">🇸🇦 العربية</button>
+    </div>
+
+    <!-- ===== HEADER / HERO SECTION ===== -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">⭐ Trusted Professional</div>
+            <h1 id="header-title">👋 I'm <span class="highlight">Zaheer Abbas</span></h1>
+            <h2 id="header-subtitle" style="font-size: 1.5rem; font-weight: 400; color: #f39c12; margin-bottom: 15px;">
+                🔧 Electrician & Plumbing Expert
+            </h2>
+            <p id="header-desc" style="font-size: 1.1rem; opacity: 0.9; max-width: 600px; margin: 0 auto 25px auto;">
+                Reliable, fast, and affordable — Riyadh, Saudi Arabia
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary" id="header-btn">📞 Contact Me Now</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label" id="stat-customers">Happy Customers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label" id="stat-satisfaction">Satisfaction</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label" id="stat-available">Available</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,40 C360,80 720,0 1080,40 C1260,60 1380,50 1440,40 L1440,100 L0,100Z" fill="white"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- ===== ABOUT / INTRODUCTION ===== -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <span class="section-tag" id="about-tag">👤 About Me</span>
+                <h2 id="about-title">Why Choose <span class="highlight">Me</span>?</h2>
+                <p id="about-text" style="font-size: 1.05rem; line-height: 1.8; color: #444;">
+                    With years of experience in electrical and plumbing services across Riyadh, 
+                    I provide <strong>professional, honest, and reliable</strong> solutions for all your home and office needs. 
+                    From fixing a simple leak to complete electrical installations — I do it all with <strong>guaranteed quality</strong>.
+                </p>
+                <div class="about-features">
+                    <div class="feature"><span>✅</span> <span id="feature-1">Licensed & Insured</span></div>
+                    <div class="feature"><span>✅</span> <span id="feature-2">Same-Day Service</span></div>
+                    <div class="feature"><span>✅</span> <span id="feature-3">Fair Pricing</span></div>
+                    <div class="feature"><span>✅</span> <span id="feature-4">Work Guarantee</span></div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="about-icon">
+                    <span style="font-size: 5rem;">🔧</span>
+                    <p style="font-weight: bold; color: #0a2f44; margin-top: 15px;" id="about-name">Zaheer Abbas</p>
+                    <p style="color: #666; font-size: 0.9rem;" id="about-role">Electrician & Plumber</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION - Now in Arabic ===== -->
+    <section id="services" class="services-section">
+        <span class="section-tag" id="services-tag">⚡ خدماتي</span>
+        <h2 id="services-title">خدمات <span class="highlight">أنا</span></h2>
+        <p class="subtitle" id="services-subtitle">حلول احترافية لجميع احتياجات منزلك ومكتبك</p>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3 id="service-1-title">إصلاحات وتركيبات كهربائية</h3>
+                <p id="service-1-desc">جميع أعمال الكهرباء من إصلاحات وتركيبات</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3 id="service-2-title">إصلاحات وتركيبات سباكة</h3>
+                <p id="service-2-desc">جميع أعمال السباكة من إصلاحات وتركيبات</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🪟</div>
+                <h3 id="service-3-title">تركيب ستائر</h3>
+                <p id="service-3-desc">تركيب ستائر احترافي لجميع النوافذ</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🪑</div>
+                <h3 id="service-4-title">تجميع أثاث إيكيا</h3>
+                <p id="service-4-desc">تجميع طاولات، خزائن ملابس، كراسي</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔒</div>
+                <h3 id="service-5-title">تركيب واستبدال أقفال الأبواب</h3>
+                <p id="service-5-desc">تركيب واستبدال جميع أنواع الأقفال</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY SECTION ===== -->
+    <section id="gallery" class="gallery-section">
+        <span class="section-tag" id="gallery-tag">📸 Portfolio</span>
+        <h2 id="gallery-title">My <span class="highlight">Work</span> Gallery</h2>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="image1.jfif" alt="Project 1" />
+                <div class="gallery-overlay">
+                    <p id="gallery-1">✨ Project 1</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jfif" alt="Project 2" />
+                <div class="gallery-overlay">
+                    <p id="gallery-2">✨ Project 2</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image3.jfif" alt="Project 3" />
+                <div class="gallery-overlay">
+                    <p id="gallery-3">✨ Project 3</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image4.jfif" alt="Project 4" />
+                <div class="gallery-overlay">
+                    <p id="gallery-4">✨ Project 4</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image5.jfif" alt="Project 5" />
+                <div class="gallery-overlay">
+                    <p id="gallery-5">✨ Project 5</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image6.jfif" alt="Project 6" />
+                <div class="gallery-overlay">
+                    <p id="gallery-6">✨ Project 6</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image7.jfif" alt="Project 7" />
+                <div class="gallery-overlay">
+                    <p id="gallery-7">✨ Project 7</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="image8.jfif" alt="Project 8" />
+                <div class="gallery-overlay">
+                    <p id="gallery-8">✨ Project 8</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== REVIEWS SECTION (changed from Testimonials) ===== -->
+    <section id="reviews" class="reviews-section">
+        <span class="section-tag" id="reviews-tag">⭐ Reviews</span>
+        <h2 id="reviews-title">What My <span class="highlight">Customers Say</span></h2>
+
+        <div class="review-grid">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text" id="review-1">"Zaheer came same day and fixed our AC electrical issue. Very professional and reasonably priced. Highly recommend!"</p>
+                <div class="customer-info">
+                    <div class="avatar">MA</div>
+                    <div>
+                        <p class="customer-name">Mohammed Al-Otaibi</p>
+                        <p class="customer-location">📍 Al-Malqa, Riyadh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text" id="review-2">"He assembled my entire IKEA wardrobe and installed curtains in just 3 hours. Perfect work, no mistakes. Will call again!"</p>
+                <div class="customer-info">
+                    <div class="avatar">SA</div>
+                    <div>
+                        <p class="customer-name">Sara Al-Fahd</p>
+                        <p class="customer-location">📍 Al-Narjis, Riyadh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text" id="review-3">"My bathroom pipes were leaking badly. He fixed everything quickly and cleaned up after himself. Very trustworthy guy."</p>
+                <div class="customer-info">
+                    <div class="avatar">FK</div>
+                    <div>
+                        <p class="customer-name">Faisal Al-Khaldi</p>
+                        <p class="customer-location">📍 Al-Rawdah, Riyadh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p class="review-text" id="review-4">"Replaced all door locks in my villa within 2 hours. Great quality locks and fair price. Very happy with the service."</p>
+                <div class="customer-info">
+                    <div class="avatar">NA</div>
+                    <div>
+                        <p class="customer-name">Nora Al-Anazi</p>
+                        <p class="customer-location">📍 Al-Yasmin, Riyadh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact-section">
+        <span class="section-tag" id="contact-tag">📞 Get In Touch</span>
+        <h2 id="contact-title">Contact <span class="highlight">Me</span></h2>
+        <p class="subtitle" id="contact-subtitle">I'm just a call or message away — let's get your work done!</p>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <h4 id="contact-mobile-label">Mobile</h4>
+                        <a href="tel:0547913473">0547913473</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <div>
+                        <h4 id="contact-wa-label">WhatsApp</h4>
+                        <a href="https://wa.me/966547913473" target="_blank">Chat Now</a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h4 id="contact-address-label">Address</h4>
+                        <span id="contact-address">Prince Muhammad Ibn Saad Ibn Abdulaziz Rd, Al Malqa, Riyadh 13524</span>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">⏰</div>
+                    <div>
+                        <h4 id="contact-hours-label">Working Hours</h4>
+                        <span id="contact-hours">7 Days a Week — 24/7 Service</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form id="contactForm">
+                    <h3 id="form-title">📩 Send Me a Message</h3>
+                    <p style="color: #666; margin-bottom: 15px; font-size: 0.95rem;" id="form-desc">I'll respond within 30 minutes</p>
+                    <input type="text" placeholder="Your Name" id="form-name" required />
+                    <input type="tel" placeholder="Your Phone Number" id="form-phone" required />
+                    <input type="text" placeholder="Your Location (e.g., Al-Malqa)" id="form-location" />
+                    <textarea placeholder="Tell me what you need..." id="form-message" rows="4"></textarea>
+                    <button type="submit" id="form-submit">📤 Send Request</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Google Maps -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.601400177278!2d46.598121173932974!3d24.809098947313544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee5003f4c5f07%3A0x910f2d88c5a6f1a!2sPrince%20Muhammad%20Ibn%20Saad%20Ibn%20Abdulaziz%20Rd%2C%20Al%20Malqa%2C%20Riyadh%2013524!5e0!3m2!1sen!2s!4v1786469265093!5m2!1sen!2s" 
+                width="100%" 
+                height="300" 
+                style="border:0; border-radius: 12px;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3 style="color: #f39c12;">⚡ Zaheer Abbas</h3>
+                <p id="footer-desc" style="color: #aaa; font-size: 0.95rem;">Your Trusted Electrician & Plumber in Riyadh</p>
+            </div>
+            <div>
+                <p id="footer-text">© 2026 — Available 7 days a week</p>
+                <div class="footer-social">
+                    <a href="https://wa.me/966547913473" target="_blank">💬 WhatsApp</a>
+                    <a href="tel:0547913473">📞 Call Now</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+    <a href="https://wa.me/966547913473" target="_blank" class="floating-wa">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="60" />
+        <span class="wa-tooltip" id="wa-tooltip">Chat with Zaheer</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
